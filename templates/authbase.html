@@ -1,0 +1,26 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="A fully featured admin theme which can be used to build CRM, CMS, etc.">
+    {% include 'base/css.html' %}
+    <style>body { display: none; }</style>
+    <title>Perficient</title>
+  </head>
+  <body class="d-flex align-items-center bg-auth border-top border-top-2 border-primary">
+    <div class="container-fluid">
+        <div class="row align-items-center justify-content-center">
+            {% block content1 %}{% endblock %}
+            <div class="col-12 col-md-7 col-lg-6 col-xl-8 d-none d-lg-block">
+
+              <!-- Image -->
+            <div class="bg-cover vh-100 mt-n1 mr-n3" style="background-image: url({% static 'img/perficientimage/loginscreen5.jpg' %});"></div>
+
+          </div>
+        </div> <!-- / .row -->
+    </div>
+    {% include 'base/js.html' %}
+  </body>
+</html>

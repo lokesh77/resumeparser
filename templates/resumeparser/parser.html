@@ -1,0 +1,134 @@
+{% extends "base.html" %}
+{% load static %}
+{% load crispy_forms_tags %}
+{% block content %}
+{% if request.user.is_authenticated %}
+<div class="container-fluid">
+        <div class="row justify-content-center">
+          <div class="col-12">
+
+            <!-- Header -->
+            <div class="header mt-md-5">
+              <div class="header-body">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Pretitle -->
+                    <h6 class="header-pretitle">
+                      Perficient
+                    </h6>
+
+                    <!-- Title -->
+                    <h1 class="header-title">
+                      Resume Parser
+                    </h1>
+
+                  </div>
+                  <div class="col-auto">
+                  </div>
+                </div> <!-- / .row -->
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Nav -->
+                    <ul class="nav nav-tabs nav-overflow header-tabs">
+                      <li class="nav-item">
+                        {% include 'messages.html' %}
+                      </li>
+                    </ul>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+            {% if form %}
+            <!-- Card -->
+            <form method="POST" enctype="multipart/form-data" action="{% url 'home' %}" style="margin-top: 2%; margin-bottom: 3%">
+              {% csrf_token %}
+              {{ form|crispy }}
+              <div class="d-flex justify-content-center mt-3 login_container">
+              <button type="submit" id="import" name="import" class="btn btn-success" style="margin-top: 2%; border-radius: 0">Upload</button>
+              </div>
+            </form>
+            <div class="progress" id="PreLoaderBar">
+                    <div class="indeterminate">
+                    </div>
+                </div>
+        {% elif resumes %}
+            <div class="card" data-toggle="lists" data-lists-values='["id", "name", "email", "mobile", "degree", "yop", "skill","experience","exp_year"]'>
+              <div class="card-header">
+                <div class="row align-items-center">
+                  <div class="col">
+
+                    <!-- Search -->
+                    <form class="row align-items-center">
+                      <div class="col-auto pr-0">
+                        <span class="fe fe-search text-muted"></span>
+                      </div>
+                      <div class="col">
+                        <input type="search" class="form-control form-control-flush search" placeholder="Search">
+                      </div>
+                    </form>
+
+                  </div>
+                  <div class="col-auto">
+                    <!-- Button -->
+                    <a href="{% url 'home' %}">
+                      <button class="btn btn-sm btn-white dropdown-toggle" style="margin-bottom: 10px; border-radius: 0;">Upload More</button>
+                    </a>
+                  </div>
+                </div> <!-- / .row -->
+              </div>
+              <div class="table-responsive">
+                <table id="example" class="table table-striped table-bordered" style="width:100%">
+                  <thead>
+                    <tr>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="#" disabled data-sort="id"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Name" disabled data-sort="name"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Email" disabled data-sort="email"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Mobile No" disabled data-sort="mobile"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Education" disabled data-sort="degree"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="yop" disabled data-sort="yop"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Skills" disabled data-sort="skill"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Experience" disabled data-sort="experience"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Experience in years" disabled data-sort="exp_year"></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Resume" disabled></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Schedule Interview" disabled></th>
+                        <th scope="col"><input type="text" class="text-muted sort" placeholder="Send Mail" disabled></th>
+                    </tr>
+                  </thead>
+                  <tbody class="list">
+                    {% for resume in resumes %}
+                      <tr>
+                        <td scope="row">{{forloop.counter}}</td>
+                        <td class="name">{{resume.name}}</td>
+                        <td class="email">{{resume.email}}</td>
+                        <td class="mobile">{{resume.mobile_number}}</td>
+                        <td class="degree">{{resume.education}}</td>
+                        <td class="yop">{{resume.educations}}</td>
+                        <td class="skill">{{resume.skills|truncatechars:50}}</td>
+                        <td class="experience">{{resume.experience}}</td>
+                        <td class="exp_year">{{resume.experiences}}</td>
+                        <td><a href="{{resume.resume.url}}" target="_blank">view</a></td>
+                        <form method="POST" enctype="multipart/form-data" action="{% url 'send' %}" style="margin-top: 2%; margin-bottom: 3%">
+                        <td><input type="text" class="datePickerInput" placeholder="Click to schedule"></td>
+                        <td>
+                            {% csrf_token %}        
+                            <div class="d-flex justify-content-center mt-3 login_container">
+                            <button type="submit" id="send" name="send" class="btn btn-warning" style="margin-top: 0; border-radius: 0">Send</button>
+                            </div>
+                            
+                        </td>
+                        </form>
+                      </tr>
+                    {% endfor %}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div> <!-- / .row -->
+        {% endif %}
+      </div>
+      {% endif %}
+{% endblock %}

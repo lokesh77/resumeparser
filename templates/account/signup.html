@@ -1,0 +1,46 @@
+{% extends "authbase.html" %}
+{% load static %}
+{% load i18n %}
+{% load account socialaccount %}
+
+{% block head_title %}{% trans "Signup" %}{% endblock %}
+
+{% block content1 %}
+
+<div class="col-12 col-md-5 col-lg-6 col-xl-4 px-lg-6 my-5">
+
+  <!-- Heading -->
+  <h1 class="display-4 text-center mb-3">
+    {% trans "Sign Up" %}
+  </h1>
+
+  <!-- Subheading -->
+  <p class="text-muted text-center mb-5">
+    Perficient Python Project.
+  </p>
+
+  <!-- Form -->
+  <form method="post" action="{% url 'account_signup' %}">
+    {% csrf_token %}
+    {{ form.as_p }}
+    {% if redirect_field_value %}
+    <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+    {% endif %}
+
+    <!-- Submit -->
+    <button class="btn btn-lg btn-block btn-primary mb-3">
+    {% trans "Sign Up" %} &raquo;
+    </button>
+
+    <!-- Link -->
+    <div class="text-center">
+      <small class="text-muted text-center">
+        Already have an account? <a href="{{ login_url }}">Log in</a>.
+      </small>
+    </div>
+
+  </form>
+
+</div>
+
+{% endblock %}

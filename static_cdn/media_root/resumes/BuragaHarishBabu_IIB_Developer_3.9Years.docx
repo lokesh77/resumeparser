@@ -1,0 +1,246 @@
+
+
+PROFESSIONAL SUMMARY:
+
+Over 3.9 years of IT experience in Software Development with proficiency in
+designing & developing Enterprise-based applications and implementing
+ESB/SOA Architecture using IBM Web Sphere Integration tools like WMB/IIB,
+WMQ v7.5 and Java programming.
+    ● Good experience in installation and configuration of WebSphere
+      Message Broker 8.0 and IBM Integration Bus 9.0,10.0 and WebSphere MQ
+      7.5.
+    ● Strong in design, Integration and Implementation of IBM WebSphere
+      Integration tools namely MQ Series, IBM Integration Bus.
+    ● Having good knowledge on working with MQSI, MQSC commands.
+    ● Good in developing Data format description language(DFDL) with
+      respective message formats like CSV, fixed length and XML etc.
+    ● Experienced in design, development and mapping using IIB and MQ with
+      different formats like XML, JSON and MRM formats.
+    ● Experienced in handling web services like SOAP and Restful web
+      services, good at analysing/handling WSDLs for SOAP web calls.
+    ● Good Experience in MQ Nodes, File Nodes, HTTP, SOAP Nodes and ESQL
+      coding etc in IIB.
+    ● Basic knowledge on handling WTX Maps and MAP calls.
+    ● Experienced in DB2, SQL server and Oracle Database.
+    ● Knowledge in XML based concepts like XSD, XPATH, WSDL, Web Services.
+    ● Excellent ability to plan, organize and prioritize my work to meet
+      on time the deadlines of clients and keep customer's satisfaction at
+      the highest level possible.
+    ● Showcased good skills in resolving Technical issues.
+    ● Proven ability in quick understanding and learning of new
+      technologies and their application in business solutions.
+    ● Flexible and capable of learning new tools and technologies. Can
+      adapt to new environments in less time.
+    ● Excellent communication and presentation skills, self-starter, quick
+      learner, team player.
+    ● Self-motivated and have strong organizational skills.
+    ● Hard working, enthusiastic and competent of working in groups.
+    ● Good debugging and problem solving skills with excellent
+      understanding of system development methodologies, techniques and
+      tools.
+
+Technical Skills:
+    ● Operating Systems           : Windows, UNIX,AIX.
+    ● Middleware Technologies     : WMB 8.0 and IIB 9.0, WMQ 7.0 & 7.5.
+    ● Programming Languages       : JAVA, ESQL
+    ● Databases                   : MySQL,IBM DB2,Oracle.
+    ● External Tools                   : SOAPUI, RFHUtil, Filezilla. Data
+      Studio, Winscp, SVN,GitHub
+
+
+
+Education:
+    ●  B.  Tech  (2013)  from  Andhra  University,   Visakhapatnam,   Andhra
+      Pradesh. – 7.00(CGPA)
+
+Training:
+         • Attended corporate training program at Miracle Software Systems,
+           Inc emphasizing on IIB, MQ, WTX.
+         • Attended training on Java, J2EE  and  DB2  at  Miracle  Software
+           Systems, Inc India.
+
+
+Work Experience:
+
+Project # 3
+                                                  March’18 - Till date
+
+Company          :  Cognizant
+
+Client           :    Jana Small Finance Bank
+Team Size   :    6
+Designation :    IIB Developer
+
+Brief description of the project:
+
+Jana Small  Finance  Bank,  erstwhile  Janalakshmi  Financial  Services,  is
+headquartered in Bengaluru. It is  one  of  the  10  financial  institutions
+which had received in-principle approval from RBI, in  2015,  to  set  up  a
+Small Finance Bank. Established in Bengaluru in 2008, it went on  to  become
+the largest Micro Finance Institution (MFI) in  India,  and  was  recognised
+globally as one of the world’s innovative financial institutions working  on
+the problem of financial inclusion.
+
+Responsibilities:
+    ● Developed the message flows involved in the Interfaces.
+    ● Design and develop the Common entry flow and Exit flows using
+      Compute node.
+    ● Review design documents and technical specifications of the WMB
+      components.
+    ● Developed Credit Bureau Services to Inquiry CB Check of Customers
+      through High Mark and EQ.
+    ● Worked on the enrollment services, Id deduplication check to process
+      the customer enrolment and updation in the Back end server and its
+      list and status updation too.
+    ● Design and Developed mobile and RIB banking services with back end
+      Integration.
+    ● Worked on the FIS card and wallet related services for payment.
+    ● Worked on Loan originating services to process loan activities.
+    ● Developed Bank service requests with generic message flow which
+      invokes multiple flows based on the Service requests.
+    ● Involved and designed in Lead capture services and AML check
+      operation, Customer & Account creation of the customers.
+    ● Worked on the RDTD account services with special logic and provided
+      multiple services to the customer.
+    ● Exposed Message Flows as Web Service Providers through WSDL.
+    ● Error code generation and Logging errors in user defined logs &
+      Email Propagation.
+
+Environment: IBM Web Sphere MQ V7.5, IBM Integration Bus(IIB9), IBM DB2  9.0
+, AIX and Windows.
+
+
+
+Project # 2
+                                                     July ’17 – Mar 18
+
+Company          :  Miracle Software Systems
+
+Client           :    Hanes Brands Inc
+Team Size   :    9
+Designation :    WMB Developer
+
+
+Brief description of the project:
+
+Hanesbrands Inc. is a  global  consumer  goods  company  with  more  than  a
+century of history and a portfolio of leading apparel  essentials  including
+T-shirts, bras, panties, men’s underwear, kid’s underwear,  socks,  hosiery,
+casual wear and active wear. Hanes brand is  working  to  integrate  its  28
+divisions to a common IT system,  requiring  the  integration  of  disparate
+systems located throughout the organization.  In  this  integration  message
+broker  that  acts  as  an  intermediary  between  two  services,   actually
+processing and transforming the message data prior to passing  it  along  to
+the next application.
+
+Responsibilities:
+    ● Developed the message flows involved in the Interfaces.
+    ● Review design documents and technical specifications of the WMB
+      components.
+    ● Designed and Developed WMB Message Sets and Message Flows for the
+      data transformation and Routing.
+    ● Developed message flows based on the business requirement by using
+      the WMB components.
+    ● Developed  message flows with database interaction and perform the
+      business operations.
+    ● Worked on the MQ nodes, File nodes, routing nodes and developed
+      couple of message flows.
+    ● Worked on the web services interfaces with HTTP and SOAP nodes.
+    ● Worked on the SSL Configuration to enhance security to through HTTPS
+      calls.
+    ● Problem determination using error logs and traces.
+    ● Routed message to target application based on filters in mapping
+      documents.
+    ● Exposed Message Flows as Web Service Providers through WSDL.
+    ● Created message Flows for Publish Subscribe Requirements.
+    ● Error code generation and Logging errors in user defined logs &
+      Email Propagation.
+    ● Conducted unit testing for message flow developed with different
+      cases and created a test plan.
+    ● Innovative and able to identify and implement ideas for making
+      improvements within existing processes.
+
+Environment: IBM Web Sphere MQ V7.0, IBM Integration Bus(IIB9), IBM DB2  9.0
+, UNIX and Windows.
+
+
+
+Project # 1                                                     Jan ’15 –
+Jun ‘17
+
+Company          :  Miracle Software Systems
+Client      :  Walmart.
+Role                   :  IIB Developer.
+Team Size              :  12
+
+Brief description of the project:
+
+Walmart, is an American multinational retail corporation  that  runs  chains
+of large discount department stores and warehouse  stores.  Walmart  is  the
+world's second largest public corporation & biggest private employer in  the
+world with over two million  employees.  The  company  was  founded  by  Sam
+Walton in 1962.It is  headquartered  in  Bentonville,  Arkansas.Walmart  has
+8,500 stores  in  15  countries,  under  55  different  names.  The  company
+operates under the Walmart name in the United States.It operates  in  Mexico
+as Walmex, in the United Kingdom as Asda, in Japan as Seiyu,  and  in  India
+as Best Price.
+
+Responsibilities:
+        ● Created the current state visio and the future state visio of
+          the enterprise.
+        ● Developed business logic using ESQL code in message flows.
+        ● Worked on ESQL functions and statements for message content
+          transformation.
+        ● Experience in creating Tables, Views, Stored Procedures,
+          Functions and Triggers such as in Oracle and DB2.
+        ● Prepared Functional Specifications and Technical Specification
+          for the interfaces.
+        ● Developed error handling message flows to handle various types
+          of errors and notifying the users.
+        ● Deployment/trouble shooting to DEV,QA,PROD Environments.
+        ● Involved in common modules development, Exception Handling,
+          Notification, Logging framework.
+        ● Good experience in the MQ and HTTP Protocols and Built in nodes.
+        ● Configured SVN repository with Message Broker and daily check in
+          and checkout / version control of the source code.
+        ● Basic unit testing of the application flows, prepared test cases
+          for the developed message flows.
+
+
+        ● Involved in designing and developing functional specification
+          documents for various business flows in project.
+        ● Worked on 24/7 support and solved many issues, and raised
+          Incidents, PMR's.
+        ● Debugging interface in live, validating files according to the
+          maps, providing solutions for development team for manual errors
+          during development.
+        ● Handling priority incidents reported by customer's on message
+          flow (Incident Management).
+        ● Production System Monitoring and Support.
+        ● Release Management – Deployment of IIB objects in live
+          environment.
+        ● Application support and Maintenance.
+        ● Involved in Problem Management issues pertaining to Interfaces,
+          Databases, servers.
+        ● Involved in Configuration Management.
+        ● Experience in working with App Watch Queue Monitoring.
+        ● Troubleshooting includes determining the problems related to
+          Middleware configurations, Data related issues, Map specific
+          logical issues.
+        ● Doing Change Requests in Remedy Tool for any configuration
+          changes in DEV, QA, UAT, PRE-PROD and PROD environment.
+        ● MQ series troubleshooting includes viewing and clearing failed
+          transactions from queues and re-triggering of the Dynamic queues
+          in case failed transactions.
+        ● Raising PMR's with IBM.
+        ● Part of 24*7 model Support project.
+
+Environment: WebSphere MQ 7.5, IBM Integration Bus(IIB9), SQL Server
+Version8, SVN, Windows 7.
+
+ I hereby declare that the above statements are true and correct as per  the
+best of my knowledge and belief.
+
+Place: Bangalore                                         Harish Buraga
+
+Date : 01/10/2018

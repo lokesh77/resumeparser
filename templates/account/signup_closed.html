@@ -1,0 +1,21 @@
+{% extends "authbase.html" %}
+
+{% load i18n %}
+{% load account %}
+
+{% block head_title %}{% trans "Sign Up Closed" %}{% endblock %}
+
+{% block content1 %}
+<div class="col-12 col-md-5 col-lg-6 col-xl-4 px-lg-6 my-5">
+
+  <!-- Heading -->
+  <h1 class="display-4 text-center mb-3">
+    {% trans "Sign Up Closed" %}
+  </h1>
+
+  <!-- Subheading -->
+  <p class="text-muted text-center mb-5">
+    {% trans "We are sorry, but the sign up is currently closed." %}
+  </p>
+</div>
+{% endblock %}
